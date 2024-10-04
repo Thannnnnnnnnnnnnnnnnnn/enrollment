@@ -1,0 +1,194 @@
+
+body{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+
+}
+ @keyframes fadeIn {
+    from {
+        opacity: 0;
+       
+        transform: translateY(20px);
+        
+    }
+    to {
+        opacity: 1;
+        
+        transform: translateY(0);
+       
+    }
+ }
+ @keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
+    25% {
+        transform: translateX(-25%);
+    }
+    50% {
+        transform: translateX(-50%);
+    }
+    75% {
+        transform: translateX(-25%);
+    }
+    100% {
+        transform: translateX(1);
+    }
+}
+
+.admission{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    height: 80px;
+    font-size: x-large;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+   
+
+
+}
+
+.main-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.form {
+    width: 700px; /* Adjust width as necessary */
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2)
+    
+}
+.form input[type="text"],
+.form input[type="date"],
+.form input[type="file"],
+.form input[type="email"],
+.form input[type="password"]
+{
+    color: black;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 100%;
+    height: 40px;
+    font-size: large;
+    box-shadow: 0 2px 5px rgba(0, 1, 1, 0.2);
+
+}
+.form input[type="text"]:hover,
+.form input[type="date"]:hover,
+.form input[type="file"]:hover{
+    background-color: antiquewhite;
+    transition: 0.3s;
+
+
+}
+.address{
+    display: inline-block;
+    flex-direction: column;
+    width: 25%; /* Adjust this as needed */
+    margin: 10px;
+    
+}
+.address input[type = "text"],
+.address input[type = "number"]
+{
+    color: black;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 100%;
+    height: 40px;
+    font-size: large;
+    box-shadow: 0 2px 5px rgba(0, 1, 1, 0.2);
+}
+.address input[type = "text"]:hover,
+.address input[type = "number"]:hover{
+    background-color: antiquewhite;
+    transition: 0.3s;
+
+}
+
+
+.shs-bg {
+    display: inline-block;
+    flex-direction: column;
+    width: 25%; /* Adjust this as needed */
+    margin: 10px;
+
+}
+.shs-bg input[type="text"],
+.shs-bg input[type="date"],
+.shs-bg input[type="number"]{
+    color: black;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 100%;
+    height: 40px;
+    font-size: large;
+    box-shadow: 0 2px 5px rgba(0, 1, 1, 0.2);
+
+}
+.shs-bg input[type="text"]:hover,
+.shs-bg input[type="date"]:hover,
+.shs-bg input[type="number"]:hover{
+    background-color: antiquewhite;
+    transition: 0.3s;
+
+}
+
+#Gender, #strand, #MOD{
+    color: black;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 100%;
+    height: 40px;
+    font-size: large;
+    box-shadow: 0 2px 5px rgba(0, 1, 1, 0.2);
+}
+#Gender:hover
+, #strand:hover
+, #MOD:hover{
+    background-color: antiquewhite;
+    transition: 0.3s;
+}
+.button1{
+    margin: 0 auto;
+    color: white;
+    font-size: large;
+    text-align: center;
+   
+}
+.next-button1{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkblue;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    width: 200px;
+    height: 60px;
+}
+.next-button1:hover{
+    color: white;
+    background-color: blue;
+    transition: 0.3s;
+    padding: 17px;
+    border-radius: 17px;
+}
